@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url('/img/backgd.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+   color:black; */
+}
+.registerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/img/bg.jpeg');
+    color:white;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    gap:10px;
+}
+.registerForm input{
+    height:35px;
+    border-radius: 5px;
+    border:1px solid black;
+    padding-left: 10px;
+}
+.registerForm input:focus{
+    outline: none;
+}
+.registerForm button{
+    height: 30px;
+    border-radius: 5px;
+    border:1px solid black;
+}
+.textInput{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.btn{
+    height: 30px;
+    border-radius: 5px;
+    width:300px;
+    margin-top: 5px;
+    border:1px solid black;
+    text-decoration: none;
+}
+.registerContainer p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.contentContainer{
+    height:300px;
+    width:380px;
+    padding:10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    @media (max-width:320px)
+    {
+        width:280px;
+    }
+    @media (max-width:769px)
+    {
+        width:100%;
+    }
+  
+}
+.contentContainer p{
+    margin-top: 20px;
+}
+.Contents{
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    @media (max-width:769px)
+    {
+        grid-template-columns: auto;
+    }
+}
+.spaceAdd{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:280px;
+}
+.link{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+}
+.link a{
+    text-decoration: none;
+}
+.viewContainer{
+    width:360px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:20px;
+    @media(max-width:320px)
+    {
+        width:290px;
+    }
+}
+.allBtns{
+    display: flex;
+    justify-content: flex-end;
+    gap:10px;
+}
+button{
+    border:none;
+    color:red;
+    background-color: white;
+}
+.editContainer{
+   width:400px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   @media(max-width:320px)
+   {
+    width:300px;
+   }
+}
+.editBtn{
+    width:70px;
+}
+.newPost{
+    margin-left: 17px;
+}
+.loginBtn{
+    width:300px;
+    border-radius: 5px;
+    height:30px;
+    text-decoration: none;
+}
+.loginBtn a{
+    text-decoration: none;
+    color:white;
+}
