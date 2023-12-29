@@ -30,7 +30,7 @@
 
 SoloWhisper is an app that allows the users to post interesting events that happened in their lives. 
 
-##Featues
+## Featues
 <ul>
   <li>The users can create,update,edit and delete the post.</li>
   <li>User Authentication</li>
